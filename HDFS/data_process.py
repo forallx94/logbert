@@ -11,7 +11,8 @@ import numpy as np
 from logparser import Spell, Drain
 
 # get [log key, delta time] as input for deeplog
-input_dir  = os.path.expanduser('~/.dataset/hdfs/')
+# input_dir  = os.path.expanduser('~/.dataset/hdfs/')
+input_dir  = '../loghub/HDFS/'
 output_dir = '../output/hdfs/'  # The output directory of parsing results
 log_file   = "HDFS.log"  # The input log file name
 

@@ -17,7 +17,8 @@ PAD = 0
 UNK = 1
 START = 2
 
-data_dir = os.path.expanduser("~/.dataset/bgl")
+# data_dir = os.path.expanduser("~/.dataset/bgl")
+data_dir = "../loghub/BGL"
 output_dir = "../output/bgl/"
 log_file = "BGL.log"
 
@@ -109,7 +110,7 @@ if __name__ == "__main__":
     ##########
     # Parser #
     #########
-
+    
     parse_log(data_dir, output_dir, log_file, 'drain')
 
     #########
