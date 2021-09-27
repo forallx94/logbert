@@ -34,9 +34,9 @@ Reference: https://packaging.python.org/guides/installing-using-pip-and-virtual-
 ## Experiment
 Logbert and other baseline models are implemented on [HDFS](https://github.com/logpai/loghub/tree/master/HDFS), [BGL](https://github.com/logpai/loghub/tree/master/BGL), and [thunderbird]() datasets
 
- ### HDFS example
+ ### BGL example
  ```shell script
-cd HDFS
+cd BGL
 
 sh init.sh
 

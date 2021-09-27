@@ -110,8 +110,8 @@ if __name__ == "__main__":
     ##########
     # Parser #
     #########
-    
-    parse_log(data_dir, output_dir, log_file, 'drain')
+    if not os.path.isfile(f'{output_dir}{log_file}_structured.csv'):
+        parse_log(data_dir, output_dir, log_file, 'drain')
 
     #########
     # Count #
